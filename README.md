@@ -35,6 +35,13 @@ cd calculatrice-react
 npm install
 ```
 
+## Technique
+
+Fonction "Calculator" qui permet d'afficher la calculatrice ainsi que ses fonctions :
+   -Dans cette fonction on a une constante handleButtonClick que l'on assigne au OnClick de nos bouton. Cette constante nous permet de faire afficher le resultat
+    ou d'ajouter un chiffre.
+   -Ensuite grâce à une classe Root, on fait apparaitre notre App qui est une fonction qui permet d'afficher notre fonction Calculator.
+
 ## Utilisation
 
 1. Exécutez la commande suivante pour lancer l'application en mode de développement :
@@ -45,7 +52,7 @@ npm run dev
 
 2. Ouvrez votre navigateur et accédez à l'URL donné
 
-3. Chaque bouton permet d'écrire le chiffre ou l en haut de la calculatrice.
+3. Chaque bouton contenant un chiffre permet d'écrire le chiffre en haut de la calculatrice.
 
 4. Le bouton "C" permet de réinitialiser l'affichage de notre calculatrice.
 
